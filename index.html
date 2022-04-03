@@ -7,43 +7,122 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Telemática para la Educación</title>
   </head>
-  <body>
 
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap.dist/js/bootstrap.min.js"></script>
+  <body>
     
-    <div class="jumbotron jumbotron-fluid">
-  		<div class="container">
-    		<h1 class="display-4">Libros Telemática</h1>
-    		<p class="lead">Espacio donde encontrarás libros de apoyo para poder descargar.</p>
- 	 	</div>
+    <div class="jumbotron">
+    	<h1 class="display-4">Libros Telemática</h1>
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h4>Libro Telecomunicaciones</h4> 
-				<p>Guia basica para crear un entorno virtual. </p>
-				<a href=" www.libros.com" target="_blank">Descargar </a>
+		<div class="d-flex">
+			<div class="col-sm-4">
+				<p>
+					<h4>¿Que es Telematica?</h4> 
+					<p>Guia basica para crear un entorno virtual. </p>
+				</p>
 			</div>
-			<div class="col">
-				<h4>Libro Enseñanza </h4> 
-				<p>Ayuda para el proceso de enseñanza para alumnos a distancia. </p>
-				<a href=" www.libros.com" target="_blank">Descargar </a>
+			<div class="col-sm-4">
+				<p>
+					<h4>¿Quen dirige Telematica? </h4> 
+					<p>Ayuda para el proceso de enseñanza para alumnos a distancia. </p>
+				</p>
 			</div>
-			<div class="col">
-				<h4>Libro Tutores Expertos</h4> 
-				<p>Conceptos basicos para el entendimiento del tema de tutores expertos.</p>
-				<a href=" www.libros.com" target="_blank" style="">Descargar </a>
+			<div class="col-sm-4">
+				<p>
+					<h4>¿Para que nos sirve?</h4> 
+					<p>Conceptos basicos para el entendimiento del tema de tutores expertos.</p>
+				</p>
 			</div>
 		</div>
+		<hr>
 
-		<div class="grid">
+
+
+		<div class="d-flex flex-wrap">
+			<div class=" card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro Comunicación</h4> 
+					<p>Guia basica para crear un entorno virtual. </p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro Enseñanza </h4> 
+					<p>Ayuda para el proceso de enseñanza para alumnos a distancia. </p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro Tutores Expertos</h4> 
+					<p>Conceptos basicos para el entendimiento del tema de tutores expertos.</p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro Inteligencia Artificial</h4> 
+					<p>Conceptos basicos para el entendimiento de la inteligencia artifical.</p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro pyton for dummies</h4> 
+					<p>Conceptos basicos de python.</p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro pyton for dummies</h4> 
+					<p>Conceptos basicos de python.</p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+			</div>
+			<div class="card-libros d-flex flex-column justify-content-between">
+				<div>
+					<h4>Libro pyton for dummies</h4> 
+					<p>Conceptos basicos de python.</p>
+				</div>
+				<div><button class="btn btn-primary btn-descarga">Descargar</button></div>
+				
+			</div>
+		</div>
 	</div>
 
+	<footer> 
+		<div class="row">
+			<div class="col-sm-4 d-flex flex-column">
+				<p>Instagram</p>
+				<p>Facebook</p>
+				<p>Twitter</p>
+			</div>
+			<div class="col-sm-4 d-flex flex-column">
+				<address>
+					Av.Insurgentes s/n, Coyoacán, Ciudad de México, México.
+					5521418948
+					icat@unam.mx
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column align-items-end">
+				<p>
+				Contacto
+				<p>5521418948</p>
+				</p>
+				
+			</div>
+		</div>
+	</footer>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap.dist/js/bootstrap.min.js"></script>
   </body>
 </html>
