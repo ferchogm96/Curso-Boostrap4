@@ -1,11 +1,16 @@
 .jumbotron{
-	background-color: #aaa;
-	color: black
+	background-color: primary;
+	color: black;
+	margin-top: 50px;
+}
+
+.navbar{
+	background-color: #e3f2fd;
 }
 
 footer{
 	padding: 10px 10px 0 10px;
-	background-color: yellow;
+	background-color: aquamarine;
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
