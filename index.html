@@ -18,25 +18,22 @@
     <div class="jumbotron">
     	<h1 class="display-4">Libros Bionarrativa</h1>
 		</div>
+
 		<nav class="navbar navbar-expand-md navbar-light fixed-top">
     	<a class="navbar-brand" href="#">Bionarrativas</a>
     	
-    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
     	</button>
 
     	<div class="collapse navbar-collapse" id="navbarSupportedContent">
     		<ul class="navbar-nav mr-auto">
-    			<li class="nav-item active">
-    				<a class="nav-link" href="#">Home</a>
-    			</li>
-    			<li class="nav-item"><a class="nav-link" href="#">Nosotros </a></li>
+    			<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+    			<li class="nav-item"><a class="nav-link" href="about.html">Nosotros </a></li>
     			<li class="nav-item"><a class="nav-link" href="#">Precios </a></li>
     			<li class="nav-item"><a class="nav-link" href="#">Terminos </a></li>
     			<li class="nav-item dropdown">
-	        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          SubirPDF
-	        	</a>
+	        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SubirPDF</a>
         		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 	          	<a class="dropdown-item" href="#">Action</a>
 	          	<a class="dropdown-item" href="#">Another action</a>
@@ -45,8 +42,14 @@
         		</div>
       		</li>
     </nav>
+
 		<div class="container">
-			<div class="d-flex">
+			<nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+			<div class="row">
 				<div class="col-sm-4">
 					<p>
 						<h4>¿Qué es Telematica?</h4> 
