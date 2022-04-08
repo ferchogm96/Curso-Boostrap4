@@ -24,3 +24,11 @@ footer{
 .btn-descarga{
 	width: 100%;
 }
+
+.footer-address-icon{
+	padding-right: 10px;
+}
+
+.download-icon{
+	padding-left: 5px;
+}
