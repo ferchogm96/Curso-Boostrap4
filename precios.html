@@ -56,66 +56,99 @@
         </ol>
       </nav>
       <hr>
-			<div class="table-responsive">
-		    <table class="table table-striped">
-		    	<thead class="thead-light">
-		    		<th>Calidad</th>
-		    		<th>Hilton</th>
-		    		<th>Riu</th>
-		    		<th>Marriott</th>
-		    		<th>HollidayIn</th>
-		    	</thead>
-		    	<tbody>
-		    		<tr>
-		    			<td><span class="oi oi-star"></span></td>
-		    			<td>$100</td>
-		    			<td>$120</td>
-		    			<td>$150</td>
-		    			<td>$180</td>
-		    		</tr>
-		    		<tr>
-		    			<td><span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span></td>
-		    			<td>$200</td>
-		    			<td>$300</td>
-		    			<td>$500</td>
-		    			<td>$800</td>
-		    		</tr>
-		    		<tr>
-		    			<td><span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span></td>
-		    			<td>$1000</td>
-		    			<td>$1200</td>
-		    			<td>$1500</td>
-		    			<td>$1800</td>
-		    		</tr>
-		    		<tr>
-		    			<td><span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span></td>
-		    			<td>$2000</td>
-		    			<td>$2200</td>
-		    			<td>$2500</td>
-		    			<td>$2800</td>
-		    		</tr>
-		    		<tr>
-		    			<td><span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span>
-		    					<span class="oi oi-star"></span></td>
-		    			<td>$3000</td>
-		    			<td>$3200</td>
-		    			<td>$3500</td>
-		    			<td>$3800</td>
-		    		</tr>
-		    	</tbody>
-		    </table>
-		  </div>
-		</div>
 
+      <ul class="nav nav-pills" id="myTab" role="tablist">
+	      <li class="nav-item">
+	      	<a class="nav-link active" id="compara-tab" data-toggle="pill" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+	      </li>
+    	</ul>
+    	<div class="tab-content" id="myTabContent">
+    		<div class="nav-pane fade show active" id="compara" role="tabpanel" arial-labelledby="compara-tab">
+					<div class="table-responsive">
+				    <table class="table table-striped">
+				    	<thead class="thead-light">
+				    		<th>Calidad</th>
+				    		<th>Hilton</th>
+				    		<th>Riu</th>
+				    		<th>Marriott</th>
+				    		<th>HollidayIn</th>
+				    	</thead>
+				    	<tbody>
+				    		<tr>
+				    			<td><span class="oi oi-star"></span></td>
+				    			<td>$100</td>
+				    			<td>$120</td>
+				    			<td>$150</td>
+				    			<td>$180</td>
+				    		</tr>
+				    		<tr>
+				    			<td><span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span></td>
+				    			<td>$200</td>
+				    			<td>$300</td>
+				    			<td>$500</td>
+				    			<td>$800</td>
+				    		</tr>
+				    		<tr>
+				    			<td><span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span></td>
+				    			<td>$1000</td>
+				    			<td>$1200</td>
+				    			<td>$1500</td>
+				    			<td>$1800</td>
+				    		</tr>
+				    		<tr>
+				    			<td><span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span></td>
+				    			<td>$2000</td>
+				    			<td>$2200</td>
+				    			<td>$2500</td>
+				    			<td>$2800</td>
+				    		</tr>
+				    		<tr>
+				    			<td><span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span>
+				    					<span class="oi oi-star"></span></td>
+				    			<td>$3000</td>
+				    			<td>$3200</td>
+				    			<td>$3500</td>
+				    			<td>$3800</td>
+				    		</tr>
+				    	</tbody>
+				    </table>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+				<div class="d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<div class="card-header" style="background-color: blue;">
+								Tarjetas aceptadas
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Tarjeta Básica</li>			<li class="list-group-item">Tarjeta VIP</li>
+							<li class="list-group-item">Tarjeta Black</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
+
+		</div>
 
 
 

@@ -18,46 +18,39 @@
   </head>
 
   <body>
-    
+  	<div class="container">
+    	<img  class="img-fluid" src="img/Banner.jpg" alt="responsive img">
+    	<!-- Inicia barra de navegacion -->
+			<nav class="navbar navbar-expand-md navbar-light fixed-top">
+				<div class="container-fluid">
+		    	<a class="navbar-brand" href="#">Bionarrativas</a>
+		    	
+		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      		<span class="navbar-toggler-icon"></span>
+	    		</button>
 
-    <div class="jumbotron">
-    	<h1 class="display-4">Libros Bionarrativa</h1>
-		</div>
-
-		<nav class="navbar navbar-expand-md navbar-light fixed-top">
-			<div class="container-fluid">
-	    	<a class="navbar-brand" href="#">Bionarrativas</a>
-	    	
-	    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      		<span class="navbar-toggler-icon"></span>
-    		</button>
-
-	    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    		<ul class="navbar-nav mr-auto">
-	    			<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-	    			<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros </a></li>
-	    			<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto </a></li>
-	    			<li class="nav-item"><a class="nav-link" href="./precios.html">Precios </a></li>
-	    			<li class="nav-item dropdown">
-		        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">SubirPDF</a>
-	        		<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-		          	<li><a class="dropdown-item" href="#">Action</a></li>
-		          	<li><a class="dropdown-item" href="#">Another action</a></li>
-		          	<li><a class="dropdown-item" href="#">Something else here</a></li>
-	        		</ul>
-	      		</li>
-	      	</ul>
-	      </div>
-   		</div>
-    </nav>
-
+		    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    		<ul class="navbar-nav mr-auto">
+		    			<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+		    			<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros </a></li>
+		    			<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto </a></li>
+		    			<li class="nav-item"><a class="nav-link" href="./precios.html">Precios </a></li>
+		      	</ul>
+		      </div>
+	   		</div>
+	    </nav>
+	    <!--Termina barra de navegacion-->
+	  </div>
+	  <!--Inicia el breadcrumb que sirve para ubicarte en que pagina estas-->
 		<div class="container">
 			<nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item active" aria-current="page">Home</li>
         </ol>
       </nav>
+      <!--Termina breadcrumb-->
       <hr>
+      <!--Inicia contenedor para introductorios-->
 			<div class="row">
 				<div class="col-sm-4">
 					<p>
@@ -79,10 +72,11 @@
 				</div>
 			</div>
 			<hr>
+			<!--Termina contenedor instroductorio-->
 
 			<img src="img/unam.jpg" class="img-fluid" alt="responsive img">
 
-
+			<!--Inicia tarjetas para descargas-->
 		<div class="d-flex flex-wrap">
 
 			<div class="card card-libros d-flex flex-column justify-content-between ml-2">
@@ -136,7 +130,7 @@
 				<div><button class="btn btn-primary btn-descarga">Descargar<span class="oi oi-data-transfer-download download-icon"></span></button></div>
 			</div>
 
-			
+			<!--Terminan tarjetas de descargas-->
 		</div>
 	</div>
 
