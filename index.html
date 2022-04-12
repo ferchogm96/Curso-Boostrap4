@@ -99,7 +99,7 @@
 				<div class="card card-libros d-flex flex-column justify-content-between ml-2">
 					<div class="card-body">
 						<img src="img/4.png" class="card-img-top">
-						<h5 class="card-title">Libro Comunicación</h5> 
+						<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Disfruta el libro gratis!">Libro Comunicación</h5> 
 						<h6 class="card-subtitle text-muted">Ing.Escalante</h6> 
 						<p class="card-text">Guia basica para crear un entorno virtual. </p>
 					</div>
@@ -220,6 +220,12 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script>
+    	$(function(){
+    		$("[data-toggle='tooltip']").tooltip();
+    		$("[data-toggle='popover']").popover();
+    	});
+    </script>
 
   </body>
 </html>
