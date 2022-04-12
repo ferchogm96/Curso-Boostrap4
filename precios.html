@@ -49,6 +49,7 @@
     </nav>
     
 		<div class="container">
+			
 			<nav aria-label="breadcrumb">
         <ol class="breadcrumb">
         	<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -56,7 +57,7 @@
         </ol>
       </nav>
       <hr>
-
+      <!--Menu de barra-->
       <ul class="nav nav-pills" id="myTab" role="tablist">
 	      <li class="nav-item">
 	      	<a class="nav-link active" id="compara-tab" data-toggle="pill" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
@@ -68,6 +69,8 @@
 	      	<a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
 	      </li>
     	</ul>
+    	<!--Acaba el menu de barra-->
+
     	<div class="tab-content" id="myTabContent">
     		<div class="nav-pane fade show active" id="compara" role="tabpanel" arial-labelledby="compara-tab">
 					<div class="table-responsive">
@@ -130,25 +133,67 @@
 				  </div>
 				</div>
 			</div>
-			
+		
+			<!--Inicia el panel de tarjetas de acordeon-->
 			<div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-				<div class="d-flex justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<div class="card-header" style="background-color: blue;">
-								Tarjetas aceptadas
+				<!--Aqui usamos modo acordeon-->
+				<div class="accordion" id="accordionTarjetas">
+					
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+									Tarjeta Básica
+								</button>
+							</h5>
 						</div>
+
+						<div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+							<div class="card-body">
+							Puedes reserar con 3 cuotas sin interes
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">
+										Tarjeta VIP
+								</button>
+							</h5>
+						</div>
+						<div id="collapseVIP" class="collapse"  aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+							<div class="card-body">
+								Puedes reservar con 3 cuotas sin interes con VIP
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="false" aria-controls="collapseBlack">
+										Tarjeta Black
+								</button>
+							</h5>
+						</div>
+						<div id="collapseBlack" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+							<div class="card-body">
+								Puedes reserar con 3 cuotas sin interes con BLACK
+							</div>
+						</div>
+					</div>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item">Tarjeta Básica</li>			<li class="list-group-item">Tarjeta VIP</li>
 							<li class="list-group-item">Tarjeta Black</li>
 						</ul>
-					</div>
 				</div>
-			</div>
-
+			</div><!--Acaba el menu de tarjetas de acordeon-->
 			
 			<div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
 
-		</div>
+		</div> <!--Acaba el container-->
 
 
 

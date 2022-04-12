@@ -41,6 +41,8 @@
 	    </nav>
 	    <!--Termina barra de navegacion-->
 	  </div>
+
+
 	  <!--Inicia el breadcrumb que sirve para ubicarte en que pagina estas-->
 		<div class="container">
 			<nav aria-label="breadcrumb">
@@ -51,20 +53,35 @@
       <!--Termina breadcrumb-->
       <hr>
       <!--Inicia contenedor para introductorios-->
+      <div class="row">
+      	<div class="col-sm-4">
+      		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#quees" aria-expected="false" aria-controls="multiCollapse1">¿Qué es Bionarrativa?</button>
+      	</div>
+      	<div class="col-sm-4">
+      		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#como" aria-expected="false" aria-controls="multiCollapse2">¿Cómo hacer una bionarrativa?</button>
+      	</div>
+      	<div class="col-sm-4">
+      		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#para" aria-expected="false" aria-controls="multiCollapse3">¿Para qué sirve?</button>
+      	</div>
+      </div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-4 collapse multi-collapse" id="quees">
 					<p>
-						<h4>¿Qué es Telematica?</h4> 
-						<p>Guia basica para crear un entorno virtual. </p>
+						<h4>¿Qué es Bionarrativa?</h4> 
+						<p>Es un proyecto que propone el uso de los relatos digitales (Digital Storytelling) para presentar a los estudiantes nuevas formas de aprender y a los profesores recursos didácticos que motiven a los estudiantes en su aprendizaje.
+
+						La Narrativa Digital o Digital Storytelling, supone una muestra del potencial de la narrativa, género literario que enriquecido con la incorporación de las Tecnologías de la Información y la Comunicación ha generado una creciente proliferación de producciones en el campo del documental interactivo (Peralta, 2015).
+
+						Bionarrativas, son Antologías Digitales de Biología que proponen Narrativas Digitales basadas en textos de carácter científico en un formato de divulgación. Estos relatos digitales tienen un formato digital interactivo en el que se presentan temas relacionados con los programas curriculares de la asignatura de Biología de educación media superior. </p>
 					</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 collapse multi-collapse" id="como">
 					<p>
-						<h4>¿Quién dirige Telematica? </h4> 
+						<h4>¿Cómo hacer una bionarrativa? </h4> 
 						<p>Ayuda para el proceso de enseñanza para alumnos a distancia. </p>
 					</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 collapse multi-collapse" id="para">
 					<p>
 						<h4>¿Para qué nos sirve?</h4> 
 						<p>Conceptos basicos para el entendimiento del tema de tutores expertos.</p>
@@ -133,7 +150,6 @@
 			<!--Terminan tarjetas de descargas-->
 		</div>
 	</div>
-
 
 
 
