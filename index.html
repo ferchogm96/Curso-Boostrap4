@@ -90,9 +90,30 @@
 			</div>
 			<hr>
 			<!--Termina contenedor instroductorio-->
-
-			<img src="img/unam.jpg" class="img-fluid" alt="responsive img">
-
+			<!--Inicia carousel-->
+			
+			<div class="carousel slide" id="carouselControls" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/unam.jpg" class="d-block w-100" alt="primer slide">
+					</div>
+					<div class="carousel-item">
+						<img src="img/unam2.png" class="d-block w-100" alt="segunda slide">
+					</div>
+					<div class="carousel-item">
+						<img src="img/unam3.jpg" class="d-block w-100" alt="tercer slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+			</div>
+			<!--Termina carousel-->
 			<!--Inicia tarjetas para descargas-->
 			<div class="d-flex flex-wrap">
 
@@ -224,6 +245,9 @@
     	$(function(){
     		$("[data-toggle='tooltip']").tooltip();
     		$("[data-toggle='popover']").popover();
+    		$('.carousel').carousel({
+    			interval:5000
+    		});
     	});
     </script>
 
