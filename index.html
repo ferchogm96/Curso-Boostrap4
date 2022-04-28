@@ -65,7 +65,7 @@
       	</div>
       </div>
 			<div class="row">
-				<div class="col-sm-4 collapse multi-collapse" id="quees">
+				<div class="collapse multi-collapse" id="quees">
 					<p>
 						<h4>¿Qué es Bionarrativa?</h4> 
 						<p style="text-align: justify;">Es un proyecto que propone el uso de los relatos digitales (Digital Storytelling) para presentar a los estudiantes nuevas formas de aprender y a los profesores recursos didácticos que motiven a los estudiantes en su aprendizaje.
@@ -75,13 +75,13 @@
 						Bionarrativas, son Antologías Digitales de Biología que proponen Narrativas Digitales basadas en textos de carácter científico en un formato de divulgación. Estos relatos digitales tienen un formato digital interactivo en el que se presentan temas relacionados con los programas curriculares de la asignatura de Biología de educación media superior. </p>
 					</p>
 				</div>
-				<div class="col-sm-4 collapse multi-collapse" id="como">
+				<div class="collapse multi-collapse" id="como">
 					<p>
 						<h4>¿Cómo hacer una bionarrativa? </h4> 
 						<p>Ayuda para el proceso de enseñanza para alumnos a distancia. </p>
 					</p>
 				</div>
-				<div class="col-sm-4 collapse multi-collapse" id="para">
+				<div class="collapse multi-collapse" id="para">
 					<p>
 						<h4>¿Para qué nos sirve?</h4> 
 						<p>Conceptos basicos para el entendimiento del tema de tutores expertos.</p>
@@ -234,6 +234,20 @@
     		$('.carousel').carousel({
     			interval:5000
     		});
+
+    		$('#contacto').on('show.bs.modal', function(e){
+    			console.log('el modal contacto se muestra');
+    		});
+    		$('#contacto').on('shown.bs.modal', function(e){
+    			console.log('el modal contacto se muestró');
+    		});
+    		$('#contacto').on('hide.bs.modal', function(e){
+    			console.log('el modal contacto se oculta');
+    		});
+    		$('#contacto').on('hidden.bs.modal', function(e){
+    			console.log('el modal contacto se ocultó');
+    		});
+
     	});
     </script>
 
