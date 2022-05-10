@@ -1,3 +1,5 @@
+$blue: #e3f2fd;
+
 .jumbotron{
 	background-color: primary;
 	color: black;
@@ -5,12 +7,12 @@
 }
 
 .navbar{
-	background-color: blue;
+	background-color: $blue;
 }
 
 footer{
 	padding: 10px 10px 0 10px;
-	background-color: blue;
+	background-color:$blue;
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
